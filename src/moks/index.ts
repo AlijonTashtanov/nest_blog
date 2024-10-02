@@ -1,0 +1,87 @@
+export const users = [
+  {
+    _id: '66fbf46288f377b879e9586b',
+    index: 0,
+    guid: '55212b0d-ff57-4226-8def-618e6b6176fa',
+    isActive: false,
+    balance: '$2,166.56',
+    picture: 'http://placehold.it/32x32',
+    age: 32,
+    eyeColor: 'brown',
+    name: 'Gay Castaneda',
+    gender: 'female',
+    company: 'EXPOSA',
+    email: 'gaycastaneda@exposa.com',
+    phone: '+1 (941) 580-3517',
+    address: '424 Johnson Street, Marion, Virginia, 1639',
+    about:
+      'Voluptate adipisicing anim sunt aliqua. Adipisicing id sit nostrud do cupidatat enim nisi commodo. Cupidatat occaecat id sint commodo proident ad anim veniam ipsum magna. In elit fugiat ea proident Lorem fugiat nostrud consequat fugiat excepteur sit occaecat.\r\n',
+    registered: '2016-11-26T07:32:46 -05:00',
+    latitude: 38.283755,
+    longitude: -147.382027,
+    tags: [
+      'reprehenderit',
+      'labore',
+      'tempor',
+      'irure',
+      'ullamco',
+      'qui',
+      'ex',
+    ],
+    friends: [
+      {
+        id: 0,
+        name: 'Doris Nixon',
+      },
+      {
+        id: 1,
+        name: 'Ora Hogan',
+      },
+      {
+        id: 2,
+        name: 'Ross Berger',
+      },
+    ],
+    greeting: 'Hello, Gay Castaneda! You have 4 unread messages.',
+    favoriteFruit: 'banana',
+  },
+  {
+    _id: '66fbf462e1b0558842a8ac0e',
+    index: 1,
+    guid: 'bcec28cf-7797-4548-9d3a-7b3303f88a6f',
+    isActive: false,
+    balance: '$2,020.16',
+    picture: 'http://placehold.it/32x32',
+    age: 30,
+    eyeColor: 'green',
+    name: 'Byers Alston',
+    gender: 'male',
+    company: 'IZZBY',
+    email: 'byersalston@izzby.com',
+    phone: '+1 (993) 427-2033',
+    address: '872 Dahlgreen Place, Byrnedale, Oklahoma, 9255',
+    about:
+      'Eu minim do eu dolore elit. Voluptate ullamco quis nisi deserunt ut. Esse cupidatat laborum consequat nisi voluptate nulla do aliquip aliquip laboris. Aliquip veniam qui adipisicing mollit cupidatat anim. Proident eiusmod ut incididunt voluptate cupidatat et ullamco proident aute occaecat sunt nostrud ex. Sunt dolore mollit excepteur aute officia minim dolor aute minim. Culpa anim elit Lorem officia.\r\n',
+    registered: '2023-03-09T12:50:28 -05:00',
+    latitude: -46.961165,
+    longitude: -20.89683,
+    tags: ['culpa', 'id', 'culpa', 'velit', 'officia', 'nulla', 'proident'],
+    friends: [
+      {
+        id: 0,
+        name: 'Meyers Mckinney',
+      },
+      {
+        id: 1,
+        name: 'Norton Rodriquez',
+      },
+      {
+        id: 2,
+        name: 'Olson Pittman',
+      },
+    ],
+    greeting: 'Hello, Byers Alston! You have 3 unread messages.',
+    favoriteFruit: 'banana',
+  },
+  // Add the rest of the users here...
+];
